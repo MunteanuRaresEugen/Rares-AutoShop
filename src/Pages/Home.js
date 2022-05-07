@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "../styles/navbar.css";
+import { Navbar } from "../components/Navbar";
 
 export const Home = () => {
   return (
     <div>
-      <Link to="/singin">Login</Link>
-      <br />
-      <Link to="/signup" style={{ width: "350px" }}>
-        Create an account
-      </Link>
+      <Navbar />
     </div>
   );
 };

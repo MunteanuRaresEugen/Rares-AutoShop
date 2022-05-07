@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
-import { Home } from "./Pages/Home";
-import { SignIn } from "./Pages/SignIn";
-import { SignUp } from "./Pages/SignUp";
+import { Home } from "./pages/Home";
+import { SignIn } from "./pages/SignIn";
+import { SignUp } from "./pages/SignUp";
 import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
