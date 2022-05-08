@@ -1,0 +1,32 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+}
+
+.secondbar {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.rightcomponents {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  right: 10px;
+}
+
+.leftcomponents {
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  right: 10px;
+}
+
+.element {
+  margin-right: 100px;
+}

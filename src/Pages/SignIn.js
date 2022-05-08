@@ -1,5 +1,5 @@
 import React from "react";
 
 export const SignIn = () => {
-  return <div>SignInwd</div>;
+  return <div>SignIn</div>;
 };
